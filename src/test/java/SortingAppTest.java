@@ -27,11 +27,11 @@ public class SortingAppTest {
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {new String[]{"5", "3", "8", "6", "2"}, "Sorted numbers:\n2\n3\n5\n6\n8\n"},
-                {new String[]{"5"}, "Sorted numbers:\n5\n"},
-                {new String[]{}, "No arguments provided.\n"},
-                {new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"}, "Sorted numbers:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n"},
-                {new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"}, "Too many arguments provided. Maximum is 10.\n"}
+                {new String[]{"5", "3", "8", "6", "2"}, "Sorted numbers:\r\n2\r\n3\r\n5\r\n6\r\n8\r\n"},
+                {new String[]{"5"}, "Sorted numbers:\r\n5\r\n"},
+                {new String[]{}, "No arguments provided.\r\n"},
+                {new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"}, "Sorted numbers:\r\n1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n"},
+                {new String[]{"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"}, "Too many arguments provided. Maximum is 10.\r\n"}
         });
     }
 
